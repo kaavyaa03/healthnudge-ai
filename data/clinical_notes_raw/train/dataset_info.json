@@ -1,0 +1,38 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "clinical_notes",
+  "dataset_size": 103476538,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/meowterspace42/clinical_notes@001fb88aa78718cf34677dc57bd6ed1828e36dae/data/train-00000-of-00001.parquet": {
+      "num_bytes": 49819944,
+      "checksum": null
+    }
+  },
+  "download_size": 49819944,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 153296482,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 103476538,
+      "num_examples": 30000,
+      "dataset_name": "clinical_notes"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

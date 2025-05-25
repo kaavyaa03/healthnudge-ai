@@ -14,3 +14,11 @@ clinical.save_to_disk("data/clinical_notes_raw")
 pubmed.save_to_disk("data/pubmedqa_raw")
 
 print("Datasets saved successfully to /data folder.")
+
+# Inspect structure
+print("\n🧠 Clinical Notes Keys:", clinical_dataset["train"].features.keys())
+print("🧠 PubMedQA Keys:", pubmed_dataset["train"].features.keys())
+
+# Show a few entries
+print("\n🔍 Clinical Notes Text Sample:\n", clinical_dataset["train"][1])
+print("\n🔍 PubMedQA Entry:\n", pubmed_dataset["train"][1])
